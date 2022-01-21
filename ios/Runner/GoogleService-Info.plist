@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>589543936262-j51lo03su1to4lcnsb7a1v59h29ebl03.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.589543936262-j51lo03su1to4lcnsb7a1v59h29ebl03</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDw-7pTzcPSd3E3HMFYF9Czjb3YyJUVoOs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>589543936262</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.notification</string>
+	<key>PROJECT_ID</key>
+	<string>botzbots</string>
+	<key>STORAGE_BUCKET</key>
+	<string>botzbots.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:589543936262:ios:833fcda13fb6a8b9ef8e87</string>
+</dict>
+</plist>

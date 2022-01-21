@@ -4,6 +4,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+
+import 'tabs_page.dart';
+
 import 'package:flutter_notification_listener/flutter_notification_listener.dart';
 
 void main() {
@@ -23,7 +29,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
+    return MaterialApp(
       home: NotificationsLog(),
     );
   }
@@ -35,7 +41,7 @@ class NotificationsLog extends StatefulWidget {
 }
 
 class _NotificationsLogState extends State<NotificationsLog> {
-  List<NotificationEvent> _log = [];
+  final List<NotificationEvent> _log = [];
   bool started = false;
   bool _loading = false;
 
@@ -76,6 +82,10 @@ class _NotificationsLogState extends State<NotificationsLog> {
   }
 
   void onData(NotificationEvent event) {
+
+    //Only capture Discord events
+    if(event.packageName.toString().split('.').last != "discord") return;
+
     setState(() {
       _log.add(event);
     });

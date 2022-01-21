@@ -46,3 +46,4 @@ app.*.map.json
 /android/app/release
 ios/Flutter/flutter_export_environment.sh
 ios/Flutter/Generated.xcconfig
+android/.gradle
