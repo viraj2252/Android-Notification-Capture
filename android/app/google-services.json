@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "589543936262",
+    "project_id": "botzbots",
+    "storage_bucket": "botzbots.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589543936262:android:30a57e8716b71f8cef8e87",
+        "android_client_info": {
+          "package_name": "com.example.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589543936262-ib54g70v7h1r9mvu9174lmt5fvhortim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notification",
+            "certificate_hash": "c490555979ea8a966b5cfaa4fc7902a7e11c1e09"
+          }
+        },
+        {
+          "client_id": "589543936262-er295lgr0kur7i0nad7go5jkabnd6sic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6H-9_3m_mfA1CG2Q3VXeIGtX0uTO8hmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589543936262-er295lgr0kur7i0nad7go5jkabnd6sic.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "589543936262-j51lo03su1to4lcnsb7a1v59h29ebl03.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.notification"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
